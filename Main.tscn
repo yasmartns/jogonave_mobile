@@ -1,0 +1,63 @@
+[gd_scene load_steps=10 format=3 uid="uid://c8angn8kmr66q"]
+
+[ext_resource type="PackedScene" uid="uid://dqr7jumsxhb1i" path="res://Player.tscn" id="1"]
+[ext_resource type="PackedScene" uid="uid://bfqdjucke0ty6" path="res://Alien.tscn" id="2"]
+[ext_resource type="Texture2D" uid="uid://brc4h7t584pho" path="res://Material rescue/wallpaper.png" id="3"]
+[ext_resource type="Texture2D" uid="uid://de41u3fhuexwt" path="res://Material rescue/ui/ui_buttons_arrow_right_NORMAL.png" id="4_ilfnk"]
+[ext_resource type="Texture2D" uid="uid://bc1hy3721jpxe" path="res://Material rescue/ui/ui_buttons_arrow_right_PRESSED.png" id="5_7utcl"]
+[ext_resource type="Texture2D" uid="uid://bpy6vbw27xso8" path="res://Material rescue/ui/ui_buttons_arrow_left_NORMAL.png" id="6_dekah"]
+[ext_resource type="Texture2D" uid="uid://biwh3hbhkx2wp" path="res://Material rescue/ui/ui_buttons_arrow_left_PRESSED.png" id="7_epeaq"]
+[ext_resource type="Texture2D" uid="uid://c7uub77eoba6j" path="res://Material rescue/ui/ui_buttons_arrow_up_NORMAL.png" id="8_tcods"]
+[ext_resource type="Texture2D" uid="uid://cau8l13f5f1qx" path="res://Material rescue/ui/ui_buttons_arrow_up_PRESSED.png" id="9_utnwn"]
+
+[node name="Main" type="Node2D"]
+
+[node name="Player" parent="." instance=ExtResource("1")]
+position = Vector2(97.8834, 194.624)
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+z_index = -1
+position = Vector2(0, 3.05176e-05)
+texture = ExtResource("3")
+centered = false
+
+[node name="Alien" parent="." instance=ExtResource("2")]
+position = Vector2(480.13, 102.028)
+
+[node name="CanvasLayer" type="CanvasLayer" parent="."]
+
+[node name="ui_right" type="TouchScreenButton" parent="CanvasLayer"]
+position = Vector2(136, 345)
+scale = Vector2(1.9, 1.9)
+texture_normal = ExtResource("4_ilfnk")
+texture_pressed = ExtResource("5_7utcl")
+action = "ui_right"
+
+[node name="ui_left" type="TouchScreenButton" parent="CanvasLayer"]
+position = Vector2(16, 346)
+scale = Vector2(1.9, 1.9)
+texture_normal = ExtResource("6_dekah")
+texture_pressed = ExtResource("7_epeaq")
+action = "ui_left"
+
+[node name="ui_up" type="TouchScreenButton" parent="CanvasLayer"]
+position = Vector2(76, 291)
+scale = Vector2(1.9, 1.9)
+texture_normal = ExtResource("8_tcods")
+texture_pressed = ExtResource("9_utnwn")
+action = "ui_up"
+
+[node name="ui_down" type="TouchScreenButton" parent="CanvasLayer"]
+position = Vector2(137, 462)
+rotation = 3.14159
+scale = Vector2(1.9, 1.9)
+texture_normal = ExtResource("8_tcods")
+texture_pressed = ExtResource("9_utnwn")
+action = "ui_down"
+
+[node name="atirar" type="TouchScreenButton" parent="CanvasLayer"]
+position = Vector2(554, 356)
+scale = Vector2(1.9, 1.9)
+texture_normal = ExtResource("8_tcods")
+texture_pressed = ExtResource("9_utnwn")
+action = "atira"
