@@ -1,21 +1,22 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1731453592
+::res://::1731547432
 Alien.gd::GDScript::-1::1731453540::0::1::::<>CharacterBody2D<>::
-Alien.tscn::PackedScene::2770594223088979555::1731453592::0::1::::<><>::uid://by7so4tadly85::::res://Material rescue/explosao/Explosao7.png<>uid://dv1030vqo8fio::::res://Material rescue/Alien/alien1.png<>uid://bspbuci8uc4dq::::res://Material rescue/Alien/alien2.png<>uid://216ml4kt6psn::::res://Material rescue/explosao/Explosao2.png<>uid://b8r7stgsml6jh::::res://Material rescue/explosao/Explosao4.png<>uid://bjjms7ttdrgb7::::res://Material rescue/explosao/Explosao5.png<>uid://bxkvim5aywjlr::::res://Material rescue/explosao/Explosao1.png<>uid://bkavc6ecwkru8::::res://Material rescue/explosao/Explosao3.png<>uid://bg4h6owmsaak1::::res://Material rescue/explosao/Explosao6.png<>uid://d0dfv2w0mm4av::::res://Material rescue/explosao/Explosao8.png<>res://Alien.gd
-default_env.tres::Environment::8139443787730347946::1731453592::0::1::::<><>::
+Alien.tscn::PackedScene::2770594223088979555::1731454778::0::1::::<><>::uid://by7so4tadly85::::res://Material rescue/explosao/Explosao7.png<>uid://dv1030vqo8fio::::res://Material rescue/Alien/alien1.png<>uid://bspbuci8uc4dq::::res://Material rescue/Alien/alien2.png<>uid://216ml4kt6psn::::res://Material rescue/explosao/Explosao2.png<>uid://b8r7stgsml6jh::::res://Material rescue/explosao/Explosao4.png<>uid://bjjms7ttdrgb7::::res://Material rescue/explosao/Explosao5.png<>uid://bxkvim5aywjlr::::res://Material rescue/explosao/Explosao1.png<>uid://bkavc6ecwkru8::::res://Material rescue/explosao/Explosao3.png<>uid://bg4h6owmsaak1::::res://Material rescue/explosao/Explosao6.png<>uid://d0dfv2w0mm4av::::res://Material rescue/explosao/Explosao8.png<>res://Alien.gd
+default_env.tres::Environment::8139443787730347946::1731454795::0::1::::<><>::
 icon.png::CompressedTexture2D::4102597076899184125::1731453392::1731453570::1::::<><>::
 Laser.gd::GDScript::-1::1731453540::0::1::::<>Area2D<>::
-Laser.tscn::PackedScene::5218346109051279150::1731453592::0::1::::<><>::res://Laser.gd<>uid://c4u0tkl8wq4di::::res://Material rescue/bulllet.png
-Main.tscn::PackedScene::7089873977363857138::1731453592::0::1::::<><>::uid://dqr7jumsxhb1i::::res://Player.tscn<>uid://bfqdjucke0ty6::::res://Alien.tscn<>uid://brc4h7t584pho::::res://Material rescue/wallpaper.png
+Laser.tscn::PackedScene::5218346109051279150::1731454779::0::1::::<><>::res://Laser.gd<>uid://c4u0tkl8wq4di::::res://Material rescue/bulllet.png
+Main.tscn::PackedScene::7089873977363857138::1731454795::0::1::::<><>::uid://dqr7jumsxhb1i::::res://Player.tscn<>uid://bfqdjucke0ty6::::res://Alien.tscn<>uid://brc4h7t584pho::::res://Material rescue/wallpaper.png<>uid://de41u3fhuexwt::::res://Material rescue/ui/ui_buttons_arrow_right_NORMAL.png<>uid://bc1hy3721jpxe::::res://Material rescue/ui/ui_buttons_arrow_right_PRESSED.png<>uid://bpy6vbw27xso8::::res://Material rescue/ui/ui_buttons_arrow_left_NORMAL.png<>uid://biwh3hbhkx2wp::::res://Material rescue/ui/ui_buttons_arrow_left_PRESSED.png<>uid://c7uub77eoba6j::::res://Material rescue/ui/ui_buttons_arrow_up_NORMAL.png<>uid://cau8l13f5f1qx::::res://Material rescue/ui/ui_buttons_arrow_up_PRESSED.png
 Player.gd::GDScript::-1::1731453540::0::1::::<>CharacterBody2D<>::
-Player.tscn::PackedScene::8319338056874014824::1731453592::0::1::::<><>::res://Player.gd<>uid://co27ar0inxgs5::::res://Material rescue/sons/laser.wav<>uid://cc3ri0dfctltr::::res://Material rescue/Player/nave2.png<>uid://tf8tequyfkar::::res://Material rescue/Player/nave1.png
-::res://Material rescue/::1731453909
+Player.tscn::PackedScene::8319338056874014824::1731454779::0::1::::<><>::res://Player.gd<>uid://co27ar0inxgs5::::res://Material rescue/sons/laser.wav<>uid://cc3ri0dfctltr::::res://Material rescue/Player/nave2.png<>uid://tf8tequyfkar::::res://Material rescue/Player/nave1.png
+README.md::TextFile::-1::1731454963::0::1::::<><>::
+::res://Material rescue/::1731455165
 bulllet.png::CompressedTexture2D::6851157786629472290::1731453395::1731453570::1::::<><>::
 wallpaper.png::CompressedTexture2D::3585534785902140592::1731453395::1731453571::1::::<><>::
-::res://Material rescue/Alien/::1731453570
+::res://Material rescue/Alien/::1731455164
 alien1.png::CompressedTexture2D::8688470862403661018::1731453395::1731453570::1::::<><>::
 alien2.png::CompressedTexture2D::3680882087290788570::1731453395::1731453570::1::::<><>::
-::res://Material rescue/astronauta/::1731453570
+::res://Material rescue/astronauta/::1731455164
 sprite_00.png::CompressedTexture2D::7430319474827213861::1731453396::1731453570::1::::<><>::
 sprite_01.png::CompressedTexture2D::5879076833232985680::1731453396::1731453570::1::::<><>::
 sprite_02.png::CompressedTexture2D::4431045754416406050::1731453396::1731453570::1::::<><>::
@@ -26,7 +27,7 @@ sprite_06.png::CompressedTexture2D::7507356082101142456::1731453396::1731453570:
 sprite_07.png::CompressedTexture2D::5411380030389389627::1731453396::1731453570::1::::<><>::
 sprite_08.png::CompressedTexture2D::1548445288331806869::1731453396::1731453570::1::::<><>::
 sprite_09.png::CompressedTexture2D::7864190206234214625::1731453396::1731453570::1::::<><>::
-::res://Material rescue/bateria/::1731453570
+::res://Material rescue/bateria/::1731455164
 sprite_00.png::CompressedTexture2D::8540131642729164115::1731453396::1731453570::1::::<><>::
 sprite_01.png::CompressedTexture2D::4040840459951076507::1731453396::1731453570::1::::<><>::
 sprite_02.png::CompressedTexture2D::8654400651906775079::1731453396::1731453570::1::::<><>::
@@ -49,7 +50,7 @@ sprite_18.png::CompressedTexture2D::5099686909546809685::1731453397::1731453570:
 sprite_19.png::CompressedTexture2D::7462803458547585184::1731453397::1731453570::1::::<><>::
 sprite_20.png::CompressedTexture2D::1604432208966647209::1731453397::1731453570::1::::<><>::
 sprite_21.png::CompressedTexture2D::5502002856372050228::1731453397::1731453570::1::::<><>::
-::res://Material rescue/explosao/::1731453570
+::res://Material rescue/explosao/::1731455165
 Explosao1.png::CompressedTexture2D::4022697884765060315::1731453397::1731453570::1::::<><>::
 Explosao2.png::CompressedTexture2D::1950676879172208341::1731453398::1731453570::1::::<><>::
 Explosao3.png::CompressedTexture2D::3089589383033086205::1731453398::1731453570::1::::<><>::
@@ -58,21 +59,21 @@ Explosao5.png::CompressedTexture2D::3037462135391861938::1731453398::1731453570:
 Explosao6.png::CompressedTexture2D::2867901848831324558::1731453398::1731453570::1::::<><>::
 Explosao7.png::CompressedTexture2D::4138132478653164328::1731453398::1731453570::1::::<><>::
 Explosao8.png::CompressedTexture2D::8920518815196705097::1731453398::1731453570::1::::<><>::
-::res://Material rescue/HUD/::1731453570
+::res://Material rescue/HUD/::1731455165
 hud0.png::CompressedTexture2D::4743442058912573850::1731453395::1731453570::1::::<><>::
 hud1.png::CompressedTexture2D::8885016962955237276::1731453395::1731453570::1::::<><>::
 PressStart2P.ttf::FontFile::805605765062450015::1731453395::1731453570::1::::<><>::
-::res://Material rescue/Player/::1731453570
+::res://Material rescue/Player/::1731455165
 nave1.png::CompressedTexture2D::1345947744489660385::1731453395::1731453570::1::::<><>::
 nave2.png::CompressedTexture2D::4972069424952986459::1731453396::1731453570::1::::<><>::
-::res://Material rescue/sons/::1731453571
+::res://Material rescue/sons/::1731455165
 astronauta.wav::AudioStreamWAV::8673307986160628070::1731453398::1731453571::1::::<><>::
 dano.wav::AudioStreamWAV::2163468504269116918::1731453398::1731453571::1::::<><>::
 laser.wav::AudioStreamWAV::5813167253345626466::1731453398::1731453571::1::::<><>::
 mortealien.wav::AudioStreamWAV::6378784888203600064::1731453398::1731453571::1::::<><>::
 recarrega.wav::AudioStreamWAV::422740280001949476::1731453398::1731453571::1::::<><>::
 semcombustivel.wav::AudioStreamWAV::8964002965186861156::1731453398::1731453571::1::::<><>::
-::res://Material rescue/ui/::1731453916
+::res://Material rescue/ui/::1731455165
 ui_buttons_arrow_left_NORMAL.png::CompressedTexture2D::3490718220588276445::1731449819::1731453925::1::::<><>::
 ui_buttons_arrow_left_PRESSED.png::CompressedTexture2D::2993823134105980255::1731449819::1731453925::1::::<><>::
 ui_buttons_arrow_right_NORMAL.png::CompressedTexture2D::7501500216911977563::1731449819::1731453925::1::::<><>::
