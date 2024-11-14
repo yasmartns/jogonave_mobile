@@ -23,7 +23,7 @@ animations = [{
 size = Vector2(801.134, 281.44)
 
 [node name="Player" type="CharacterBody2D"]
-position = Vector2(1, 0)
+position = Vector2(-4, -15)
 scale = Vector2(0.1, 0.1)
 script = ExtResource("1")
 
@@ -40,3 +40,9 @@ autostart = true
 
 [node name="atira" type="AudioStreamPlayer2D" parent="."]
 stream = ExtResource("2")
+
+[node name="Camera2D" type="Camera2D" parent="."]
+limit_left = 0
+limit_top = 0
+limit_bottom = 0
+editor_draw_limits = true
